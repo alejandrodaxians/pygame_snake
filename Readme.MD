@@ -1,4 +1,4 @@
 Futures fixes/ upgrades:
 - Bug while changing direction to "UP"
-- Take main method apart into smaller pieces.
+- Bug while trying to close the window before game over. 
 - Create an executable package.
