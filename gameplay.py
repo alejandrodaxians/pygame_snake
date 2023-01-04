@@ -15,7 +15,7 @@ class Gameplay:
     def snake_movement(self):
         for event in pygame.event.get():
             if event.type == pygame.KEYDOWN:
-                if event.type == pygame.K_UP:
+                if event.key == pygame.K_UP:
                     snake_init.change_to = 'UP'
                 if event.key == pygame.K_DOWN:
                     snake_init.change_to = 'DOWN'
